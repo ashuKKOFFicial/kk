@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1da3d91da8284e6485f97dd78149c99, type: 3}
+  m_Name: Pay3SDKConfig
+  m_EditorClassIdentifier: 
+  androidPackageId: app.pay3.unity.sampleMobile2D
+  appNotifyApiKey: AIzaSyBIJyUQoDbuMPI9HYSzcbDLZsm0UhP7wCQ
+  appNotifyAppId: 1:214879678366:android:42896f7b6937b23bcef08f
+  appNotifyProjectId: pay3-e736b
+  appNotifyDatabaseUrl: https://pay3-e736b-default-rtdb.asia-southeast1.firebasedatabase.app
+  appNotifyStorageBucket: pay3-e736b.appspot.com
+  appDeepLink: pay3sdk://unitysample2d
+  pay3ClientId: 9430ca83-937c-4a7d-b310-780f84320291
+  pay3HostName: pprod-ui.pay3.app

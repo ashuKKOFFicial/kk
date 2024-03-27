@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4cc8fe76efbb04c4f89cf3c274ea976d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - sdkConfig: {fileID: 11400000, guid: 919d2f0387b8e4e4bb5082025510edf4, type: 2}
+  - userField: {instanceID: 0}
+  - loginBtnText: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

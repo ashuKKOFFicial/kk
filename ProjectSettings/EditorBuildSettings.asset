@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Abhishek_LoginEnv/LoginScene.unity
+    guid: e9286998a4e2d48b9aed36cb999b6423
+  - enabled: 1
+    path: Assets/Scenes/UpdatedEnvwUI/MAIN.unity
+    guid: d5da3422546d59f4ebb0aa25809d6e34
+  - enabled: 1
+    path: Assets/Abhishek_LoginEnv/LoadingScene.unity
+    guid: 3f8df7cf77f1143cd992158c47ee507c
+  - enabled: 0
+    path: Assets/Scenes/Pay3LoginScene.unity
+    guid: 3fc8acdd13e6c734bafef6554d6fdbcd
+  - enabled: 1
+    path: Assets/Scenes/UpdatedEnvwUI/FinalRoadmap.unity
+    guid: 4ee8cfcf26229504f8d374f3164cd4d4
+  - enabled: 1
+    path: Assets/SampleScenes/Scenes/CarAIWaypointBasedAashu.unity
+    guid: a2c43a0d6ec0a344f9b04f6d4dc9e668
+  m_configObjects:
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: fac19cdd31f042743b10a02e3d75a188, type: 2}
+    com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: b69b3aa56dd6a8644828acacc127a32c, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 38f8e65fdfd6f214f9e91ad745af3131, type: 2}
+    com.unity.addressableassets: {fileID: 11400000, guid: aea34b384fe6a134787dd3e8bad71aa5, type: 2}
