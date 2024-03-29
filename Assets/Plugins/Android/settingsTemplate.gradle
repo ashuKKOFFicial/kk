@@ -16,6 +16,13 @@ dependencyResolutionManagement {
         **ARTIFACTORYREPOSITORY**
         google()
         mavenCentral()
+// Android Resolver Repos Start
+        def unityProjectPath = $/file:///**DIR_UNITYPROJECT**/$.replace("\\", "/")
+        maven {
+            url (unityProjectPath + "/Assets/GeneratedLocalRepo/firebase_unity_sdk/Firebase/m2repository") // Assets/firebase_unity_sdk/Firebase/Editor/AppDependencies.xml:22, Assets/firebase_unity_sdk/Firebase/Editor/AuthDependencies.xml:20, Assets/firebase_unity_sdk/Firebase/Editor/DatabaseDependencies.xml:22
+        }
+        mavenLocal()
+// Android Resolver Repos End
         flatDir {
             dirs "${project(':unityLibrary').projectDir}/libs"
         }
