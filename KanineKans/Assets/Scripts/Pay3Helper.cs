@@ -43,6 +43,13 @@ namespace Pay3.SDK.Helper {
     // When the app starts, check to make sure that we have
     // the required dependencies to use Firebase, and if not,
     // add them if possible.
+
+
+    public void MM()
+        {
+
+            SceneManager.LoadScene("MAIN");
+        }
     public virtual void Start() {
       LoadConfig();
       Firebase.FirebaseApp.CheckAndFixDependenciesAsync().ContinueWithOnMainThread(task => {

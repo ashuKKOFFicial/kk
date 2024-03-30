@@ -7,16 +7,10 @@ public class SceneLoader : MonoBehaviour
 {
     
 
-    // Start is called before the first frame update
-    void Start()
+   public void MM()
     {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        SceneManager.LoadScene("MAIN");
     }
 
     public void LoadPay3MoneyScene(string pay3loginScene)

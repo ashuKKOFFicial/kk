@@ -8,18 +8,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LOGO.unity
     guid: 05c55cd27cc93f642b5cce0a3bc98095
-  - enabled: 0
+  - enabled: 1
     path: Assets/Abhishek_LoginEnv/LoginScene.unity
     guid: e9286998a4e2d48b9aed36cb999b6423
+  - enabled: 1
+    path: Assets/Scenes/Pay3LoginScene.unity
+    guid: 3fc8acdd13e6c734bafef6554d6fdbcd
   - enabled: 1
     path: Assets/Scenes/UpdatedEnvwUI/MAIN.unity
     guid: d5da3422546d59f4ebb0aa25809d6e34
   - enabled: 1
     path: Assets/Abhishek_LoginEnv/LoadingScene.unity
     guid: 3f8df7cf77f1143cd992158c47ee507c
-  - enabled: 0
-    path: Assets/Scenes/Pay3LoginScene.unity
-    guid: 3fc8acdd13e6c734bafef6554d6fdbcd
   - enabled: 1
     path: Assets/Scenes/UpdatedEnvwUI/FinalRoadmap.unity
     guid: 4ee8cfcf26229504f8d374f3164cd4d4
