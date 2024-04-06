@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class LogoSplashScreen : MonoBehaviour
 {
 
@@ -9,9 +9,8 @@ public class LogoSplashScreen : MonoBehaviour
     {
 
         yield return new WaitForSeconds(5f);
-        UIManager.instance.logo.SetActive(false);
-        UIManager.instance.mainMenu.SetActive(true);
-
+        SceneManager.LoadScene("LoginScene");
+        
 
     }
 

@@ -14,7 +14,7 @@ public class UIManager : MonoBehaviour
     public GameObject levelScene;
     public GameObject roverSelection;
     
-    public GameObject logo;
+    
     public GameObject settings;
     private SoundManager soundManager;
 
@@ -24,7 +24,7 @@ public class UIManager : MonoBehaviour
         if (instance == null)
         {
             instance = this;
-            DontDestroyOnLoad(gameObject);
+            //DontDestroyOnLoad(gameObject);
         }
 
         else
@@ -76,13 +76,7 @@ public class UIManager : MonoBehaviour
     
     }
     
-    public void Logo()
-    {
-
-        ShowScenes(logo);
-    
-    
-    }
+   
     public void ShowSettings()
     {
         soundManager.PlayButtonClickSound();
@@ -109,15 +103,18 @@ public class UIManager : MonoBehaviour
     public void ShowScenes(GameObject currentScene)
     {
 
-        mainMenu.SetActive(currentScene == mainMenu);
+        /*mainMenu.SetActive(currentScene == mainMenu);
         Story.SetActive(currentScene == Story);
         leaderBoard.SetActive(currentScene == leaderBoard);
         
         levelScene.SetActive(currentScene == levelScene);
         roverSelection.SetActive(currentScene == roverSelection);
         
-        logo.SetActive(currentScene == logo);
+        
         settings.SetActive(currentScene == settings);
+*/
+
+        currentScene.SetActive(true);
 
 
         // Deactivate all other UI elements
@@ -133,8 +130,7 @@ public class UIManager : MonoBehaviour
         if (currentScene != roverSelection)
             roverSelection.SetActive(false);
         
-        if (currentScene != logo)
-            logo.SetActive(false);
+        
         if (currentScene != settings)
             settings.SetActive(false);
         soundManager.PlayButtonClickSound();
