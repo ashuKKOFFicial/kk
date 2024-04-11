@@ -44,9 +44,9 @@ public class UIScript : MonoBehaviour
     void Update()
     {
         //Speedometer
-        Debug.Log("savescript.topspeed: " + SaveScript.topSpeed);
+        //Debug.Log("savescript.topspeed: " + SaveScript.topSpeed);
         displaySpeed = SaveScript.speed / SaveScript.topSpeed;
-        Debug.Log("Display Speed: " + displaySpeed);
+        //Debug.Log("Display Speed: " + displaySpeed);
 
         speedRing.fillAmount = displaySpeed;
         speedText.text = (Mathf.Round(SaveScript.speed).ToString());

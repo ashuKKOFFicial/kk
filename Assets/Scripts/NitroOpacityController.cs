@@ -5,7 +5,7 @@ public class NitroOpacityController : MonoBehaviour
 {
     public ParticleSystem[] nitroParticleSystems;
     private CarController carController;
-    private float maxSpeed = 100f;
+    private float maxSpeed = 1000f;
 
     private void Start()
     {

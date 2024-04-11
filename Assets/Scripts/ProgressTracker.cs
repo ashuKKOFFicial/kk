@@ -15,7 +15,7 @@ public class ProgressTracker : MonoBehaviour
         if (canCount && other.CompareTag("Waypoints"))
         {
             count++;
-            progress.text = "F1_JaL: " + count;
+            progress.text = "Agni: " + count;
 
             // Disable counting for a short duration
             canCount = false;

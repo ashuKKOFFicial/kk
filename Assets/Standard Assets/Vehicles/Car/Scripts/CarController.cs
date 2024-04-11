@@ -403,7 +403,7 @@ namespace UnityStandardAssets.Vehicles.Car
         {
            
             count++;
-            print("============progress" + count);
+            //print("============progress" + count);
             progress.text = "Progress: " + count;
             other.GetComponent<Collider>().enabled = false;
 
