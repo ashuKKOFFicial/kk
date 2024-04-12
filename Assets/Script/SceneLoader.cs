@@ -8,7 +8,9 @@ public class SceneLoader : MonoBehaviour
     public InputField userName;
     public InputField password;
     public Button continueAsGuestBtn;
-
+    public GameObject guestUi;
+    public GameObject connectToWalletUI;
+    public AudioSource clickSound;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +22,7 @@ public class SceneLoader : MonoBehaviour
 
     public void CheckInputFields(string _)
     {
-
+        clickSound.Play();
         if(!string.IsNullOrEmpty(userName.text) && !string.IsNullOrEmpty(password.text))
         {
 
@@ -34,14 +36,31 @@ public class SceneLoader : MonoBehaviour
         }
     }
 
-    public void MM()
+    public void Switch_To_Guest()
+    {
+        clickSound.Play();
+        connectToWalletUI.SetActive(false);
+        guestUi.SetActive(true);
+
+    }
+
+    public void Switch_To_Wallets()
     {
 
+        clickSound.Play();
+        connectToWalletUI.SetActive(true);
+        guestUi.SetActive(false);
+    }
+
+    public void MM()
+    {
+        clickSound.Play();
         SceneManager.LoadScene("MAIN");
     }
 
     public void LoadPay3MoneyScene(string pay3loginScene)
     {
+        clickSound.Play();
         SceneManager.LoadScene(pay3loginScene);
 
     }

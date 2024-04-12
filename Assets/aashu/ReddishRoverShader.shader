@@ -2,7 +2,7 @@ Shader "Custom/ReddishRoverShader"
 {
     Properties
     {
-        _OutlineColor("Outline Color", Color) = (0,0,0,1)
+        _OutlineColor("Outline Color", Color) = (10,10,10,1)
         _Outline("Outline Width", Range(0.002, 0.03)) = 0.005
     }
         SubShader

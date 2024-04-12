@@ -9687,7 +9687,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 456024123}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.1356789, y: -0.000000028376007, z: 0.00000000910938, w: 0.9907529}
+  m_LocalRotation: {x: 0.13567889, y: 1.690496e-15, z: -4.630426e-17, w: 0.9907529}
   m_LocalPosition: {x: -31.445738, y: -10.034971, z: -32.785534}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -12574,7 +12574,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &608873584
 RectTransform:
   m_ObjectHideFlags: 0
@@ -14792,6 +14792,10 @@ PrefabInstance:
     - target: {fileID: 740137656434955457, guid: 96fd802f3b6e51348ac3f09e63238cb4, type: 3}
       propertyPath: m_Name
       value: Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 6749749061191876493, guid: 96fd802f3b6e51348ac3f09e63238cb4, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7583637859321907888, guid: 96fd802f3b6e51348ac3f09e63238cb4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26467,7 +26471,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1558862415}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.22151239, y: -0.000000029061962, z: 0.000000006601584, w: 0.97515756}
+  m_LocalRotation: {x: 0.22151238, y: 1.6880988e-15, z: 1.0120836e-16, w: 0.97515756}
   m_LocalPosition: {x: 0.36044884, y: 3.835084, z: -17.050016}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -38456,8 +38460,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a092571b53f0c984faf295a42556d965, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fireTrailPrafab: {fileID: 3103942990689992477, guid: c31b6c9c87f095748861022b3b012c8b, type: 3}
-  spawnPoint: {fileID: 699752210}
 --- !u!1 &1892963051
 GameObject:
   m_ObjectHideFlags: 0
