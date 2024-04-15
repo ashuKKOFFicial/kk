@@ -22,7 +22,7 @@ public class login : MonoBehaviour
 
     public void onGuestLogin()
     {
-        SceneManager.LoadScene("LoadingScene");
+        
     }
 
     
