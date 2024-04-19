@@ -9,7 +9,7 @@ public class LogoSplashScreen : MonoBehaviour
     {
 
         yield return new WaitForSeconds(5f);
-        SceneManager.LoadScene("LoginScene");
+        SceneManager.LoadScene("loginScene_A");
         
 
     }

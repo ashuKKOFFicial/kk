@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ToonBasicOutline
+  m_Name: RockToonBasicOutline 1
   m_Shader: {fileID: 4800000, guid: 9ce107479d11178d11005b9844295342, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -36,7 +36,7 @@ Material:
     - _Outline: 0.002
     - _Shininess: 0.579717
     m_Colors:
-    - _Color: {r: 0.46268654, g: 0.46268654, b: 0.46268654, a: 1}
+    - _Color: {r: 0.1981132, g: 0.10541117, b: 0.10541117, a: 1}
     - _Emission: {r: 0, g: 0, b: 0, a: 0}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
