@@ -27,6 +27,7 @@ namespace UnityStandardAssets.Vehicles.Car
             m_Car.Move(h, v, v, handbrake);
 #else
             float h1 = Input.acceleration.x; // Tilting left/right
+            //float h1 = SimpleInput.GetAxis("Horizontal");
             float v1 = SimpleInput.GetAxis("Vertical");
             m_Car.Move(h1, v1, v1, 0f);
 #endif
