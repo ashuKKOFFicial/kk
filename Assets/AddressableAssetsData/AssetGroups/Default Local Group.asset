@@ -22,6 +22,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cfc4c6f2c3e416e499d9fd8e7f3a2d20
+    m_Address: Assets/Nirbha/GuideUI-a/Highlight.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 78aabf16f48f0b94bb6075c965e33e9e, type: 2}
   m_SchemaSet:
