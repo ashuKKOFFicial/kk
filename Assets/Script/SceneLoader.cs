@@ -11,6 +11,8 @@ public class SceneLoader : MonoBehaviour
     public GameObject guestUi;
     public GameObject connectToWalletUI;
     public AudioSource clickSound;
+
+    public GameObject updateUI;
     // Start is called before the first frame update
     void Start()
     {
@@ -55,13 +57,19 @@ public class SceneLoader : MonoBehaviour
     public void MM()
     {
         clickSound.Play();
-        SceneManager.LoadScene("MAIN");
+        SceneManager.LoadScene("MAIN_MenuScene");
     }
 
     public void LoadPay3MoneyScene(string pay3loginScene)
     {
         clickSound.Play();
         SceneManager.LoadScene(pay3loginScene);
+
+    }
+
+    public void CloseUpdates()
+    {
+        updateUI.SetActive(false);
 
     }
 

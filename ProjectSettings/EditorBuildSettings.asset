@@ -13,7 +13,7 @@ EditorBuildSettings:
     guid: 76fbe863b5be23241a043e6ae7dc9d46
   - enabled: 1
     path: Assets/Scenes/UpdatedEnvwUI/MAIN.unity
-    guid: d5da3422546d59f4ebb0aa25809d6e34
+    guid: d34641fb7b1c7f8418d39cc709906c5e
   - enabled: 1
     path: Assets/Abhishek_LoginEnv/LoadingScene.unity
     guid: 3f8df7cf77f1143cd992158c47ee507c
