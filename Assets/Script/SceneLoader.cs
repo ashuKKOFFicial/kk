@@ -57,7 +57,7 @@ public class SceneLoader : MonoBehaviour
     public void MM()
     {
         clickSound.Play();
-        SceneManager.LoadScene("MAIN");
+        SceneManager.LoadScene("MAIN_MenuScene");
     }
 
     public void LoadPay3MoneyScene(string pay3loginScene)
